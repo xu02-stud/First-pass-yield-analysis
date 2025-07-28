@@ -1,108 +1,50 @@
-# First-pass-yield-analysis
-制造工艺优化--工厂直通率分析
-直通率异常分析与统计系统 - README
-概述
-直通率异常分析与统计系统是一个用于追踪、分析生产过程中异常情况的Web应用。系统提供了完整的异常信息录入、数据统计分析和可视化功能，帮助企业提升产品质量和生产效率。
+# 直通率异常分析与统计系统
 
-主要功能
-1. 异常信息录入
-完整记录产品异常信息
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/your-repo)
 
-支持产品类型、异常时间、异常台数、异常线体等关键信息记录
+一个用于追踪、分析生产异常的Web应用，提供数据录入、统计分析和可视化功能。
 
-包含异常描述、临时解决方案、根因分析和分类功能
+## 功能特性
 
-回溯状态追踪
+- 📝 **异常信息录入**：完整记录产品异常详情
+- 📊 **数据可视化**：图表展示异常趋势和根因分布
+- 🔍 **智能筛选**：多条件过滤异常记录
+- 🔔 **提醒系统**：未完成回溯异常提醒
+- 📱 **响应式设计**：适配不同设备屏幕
 
-2. 数据分析与可视化
-实时统计异常总数、待回溯异常等关键指标
+## 在线演示
 
-每月异常数量趋势分析（折线图）
+[点击查看Demo](https://yourusername.github.io/your-repo/)
 
-异常根因分布分析（饼图）
+## 截图预览
 
-一键分析功能
+![仪表盘截图](screenshot-dashboard.png)
+![数据分析截图](screenshot-analysis.png)
 
-3. 异常记录管理
-异常记录表格展示
+## 技术栈
 
-支持按产品类型、异常线体、回溯状态和异常分类过滤
+- **前端**：HTML5, CSS3, JavaScript
+- **图表库**：Chart.js
+- **图标库**：Font Awesome 6
+- **数据存储**：LocalStorage
 
-记录编辑和删除功能
-4. 智能提醒系统
-未完成回溯异常提醒
+## 安装使用
 
-操作成功通知
+### 浏览器直接运行
+1. 下载项目文件
+2. 双击打开`index.html`
 
-技术栈
-核心框架：原生HTML/CSS/JavaScript
+### 本地开发
+```bash
+# 克隆仓库
+git clone https://github.com/yourusername/your-repo.git
 
-数据可视化：Chart.js
+# 进入项目目录
+cd your-repo
 
-UI图标：Font Awesome
+# 安装Live Server（可选）
+npm install -g live-server
 
-数据存储：浏览器localStorage
-
-安装与使用
-无需安装，直接在浏览器中打开HTML文件即可使用
-
-使用指南
-1. 录入异常信息
-在左侧"异常信息录入"面板填写相关信息
-
-点击"保存记录"按钮提交
-
-如需重置表单，点击"重置表单"按钮
-
-2. 数据分析
-使用右侧面板的筛选条件过滤数据
-
-点击"一键分析"按钮生成图表
-
-查看统计卡片获取关键指标
-
-3. 管理异常记录
-编辑记录：点击记录行的编辑按钮（铅笔图标）
-删除记录：点击记录行的删除按钮（垃圾桶图标）
-
-过滤记录：使用面板顶部的筛选下拉菜单
-
-4. 回溯管理
-系统会自动检测未完成回溯的异常
-
-每天首次访问时会显示提醒弹窗
-
-可点击"立即处理"跳转到未回溯异常列表
-
-数据存储
-系统使用浏览器的localStorage存储数据：
-
-数据保存在用户本地浏览器中
-
-清除浏览器缓存会删除所有数据
-
-系统初始化时会自动创建示例数据
-
-自定义配置
-如需修改系统功能，可编辑以下部分：
-
-样式调整：修改<style>标签内的CSS代码
-
-功能扩展：修改<script>标签内的JavaScript代码
-
-图表配置：调整renderTrendChart和renderCauseDistribution函数
-
-依赖项
-Chart.js - 数据可视化库
-
-Font Awesome - 图标库
-浏览器兼容性
-支持所有现代浏览器：
-
-Google Chrome
-
-Mozilla Firefox
-
-Microsoft Edge
-
-Safari
+# 启动开发服务器
+live-server
