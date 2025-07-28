@@ -13,9 +13,6 @@
 - 🔔 **提醒系统**：未完成回溯异常提醒
 - 📱 **响应式设计**：适配不同设备屏幕
 
-## 在线演示
-
-[点击查看Demo](https://yourusername.github.io/your-repo/)
 
 ## 截图预览
 
