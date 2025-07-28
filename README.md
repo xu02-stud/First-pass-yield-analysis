@@ -35,16 +35,3 @@
 1. 下载项目文件
 2. 双击打开`index.html`
 
-### 本地开发
-```bash
-# 克隆仓库
-git clone https://github.com/yourusername/your-repo.git
-
-# 进入项目目录
-cd your-repo
-
-# 安装Live Server（可选）
-npm install -g live-server
-
-# 启动开发服务器
-live-server
