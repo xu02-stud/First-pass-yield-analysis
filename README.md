@@ -19,8 +19,9 @@
 
 ## 截图预览
 
-![仪表盘截图](screenshot-dashboard.png)
-![数据分析截图](screenshot-analysis.png)
+![仪表盘截图](screenshots\Snipaste_2025-07-29_04-45-00.png)
+![数据分析截图](screenshots\Snipaste_2025-07-29_04-45-19.png)
+![数据汇总截图](screenshots\Snipaste_2025-07-29_04-45-42.png)
 
 ## 技术栈
 
